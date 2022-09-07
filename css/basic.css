@@ -16,6 +16,7 @@ body {
     height: 45px; 
     background: #33353F; 
   }
+
 #con_wrap{
 
 }
@@ -26,10 +27,14 @@ body {
     footer의 height값을 억지로 지정*/
     /* border:2px solid red;  */
   }
+  .main_wrap section{
+    display: table;
+  }
     #con_up { 
       flex:2;
       display:flex;
     }
+    
       .s1-1 { flex:1;}
       .con_up_right {
         flex:1;
